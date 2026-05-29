@@ -1,4 +1,4 @@
-## [ICML 2026] Official Code for [Selective Disclosure Watermarking for Large Language Models](https://openreview.net/pdf?id=Oi1AISOxzt)
+# [ICML 2026] Official Code for [Selective Disclosure Watermarking for Large Language Models](https://openreview.net/pdf?id=Oi1AISOxzt)
 
 ## File Structure
 
