@@ -1,0 +1,37 @@
+{
+  "model_name": "Llama2_7B",
+  "input_key": "result",
+  "input_path": "path/to/generation.jsonl",
+  "output_path": "path/to/detection.jsonl",
+  "batch_size": 8,
+  "vocab_size": 32000,
+  "base_watermark": "Gumbel",
+  "multibit_watermark": "HeRo",
+  "context_width": 4,
+  "salt_key": 35317,
+  "seed": 0,
+  "seeding": "hash",
+  "alpha": 0.01,
+  "aggregation": "sum",
+  "combine": "fisher",
+  "bits": 8,
+  "layer_base": [
+    2,
+    2
+  ],
+  "split_schedule": [
+    100
+  ],
+  "layer_salts": [
+    [
+      35317,
+      28289
+    ],
+    [
+      94913,
+      12821
+    ]
+  ],
+  "position_salt": 35323,
+  "n_tr": 200
+}

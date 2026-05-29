@@ -1,0 +1,40 @@
+{
+  "model_name": "Llama2_7B",
+  "input_key": "prompt",
+  "input_path": "path/to/prompts.jsonl",
+  "output_path": "path/to/generation.jsonl",
+  "nsamples": 100,
+  "batch_size": 8,
+  "max_prompt_len": 100,
+  "max_new_tokens": 240,
+  "temperature": 1.0,
+  "base_watermark": "Gumbel",
+  "multibit_watermark": "HeRo",
+  "context_width": 4,
+  "salt_key": 35317,
+  "seed": 0,
+  "seeding": "hash",
+  "bits": 8,
+  "layer_base": [
+    2,
+    2
+  ],
+  "split_schedule": [
+    100
+  ],
+  "layer_salts": [
+    [
+      35317,
+      28289
+    ],
+    [
+      94913,
+      12821
+    ]
+  ],
+  "position_salt": 35323,
+  "messages": [
+    62,
+    20
+  ]
+}
